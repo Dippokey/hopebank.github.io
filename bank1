@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    bank
+  </title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>VTU</h1>
+      <p><img src="http://115.115.142.130/VTUCard/images/VTU-Logo.png" height="250" width="210"></p>
+
+
+
+    </div>
+  </div>
+  <div>
+    <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+  </div>
+
+  <div class="nav">
+    <div class="container">
+      <ul>
+        <li><a class="btn1" href="register2.html">Register</a></li>&asp
+        <li><a class="btn1" href="mailto:#">Contact us</a></li>&asp
+        <li><a class="btn1" href="#">Search</a></li>&asp
+
+        <li><a class="btn1" href="#">ATM nearby</a></li>&asp
+
+        <li><a class="btn1" href="#">About</a></li>&asp
+
+      </ul>
+
+    </div>
+
+  </div>
+  <div>
+
+
+  </div>
+
+
+  <div class="main">
+      <div class="container">
+        <img src="http://115.115.142.130/VTUCard/images/VTU-Logo.png" height="200" width="180">
+        <h2>OUR MISSION</h2>
+        <p>Visvesvaraya Technological University is named after notable Indian engineer, scholar, statesman and the recipient of highest honour ‘Bharata Ratna’ Sir. M. Visvesvaraya. VTU is an institution that is rich in history, academic excellence, and leadership. The University is performing and continues to perform with a VISION, MISSION and MANDATE. Visvesvaraya Technological university is one of India’s leading and largest technological Universities. It has 218 affiliated engineering colleges under its jurisdiction. Every year over 50,000 students graduate from this University who are the next generation technical leaders, thinkers, innovators and scholars <a class="simple" href="#">more</a>..</p>
+
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>To recieve mails regarding VTU pls leave ur mail here</p>
+        <a class="btn" href="#">Join</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+
+
+        <marquee><p>------&copy; Dipnarayan Roy------</p></marquee>
+      </div>
+    </div>
+
+
+
+    <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+
+
+</body>
+
+
+
+
+</html>
